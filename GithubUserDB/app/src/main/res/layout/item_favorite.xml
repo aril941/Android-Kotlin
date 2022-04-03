@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/list_favorites"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/rounded_bg"
+    android:orientation="vertical"
+    android:layout_marginBottom="10dp"
+    android:paddingBottom="10dp"
+    android:paddingRight="12dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageUser"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="10dp"
+        android:paddingTop="20dp"
+        card_view:layout_constraintBottom_toBottomOf="parent"
+        card_view:layout_constraintStart_toStartOf="parent"
+        card_view:layout_constraintTop_toTopOf="parent"
+        card_view:layout_constraintVertical_bias="0.16000003"
+        tools:src="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_toEndOf="@id/imageUser"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        card_view:layout_constraintBottom_toBottomOf="@+id/imageUser"
+        card_view:layout_constraintStart_toEndOf="@+id/imageUser"
+        card_view:layout_constraintTop_toTopOf="@+id/imageUser"
+        card_view:layout_constraintVertical_bias="0.0"
+        tools:text="@string/app_name" />
+
+    <TextView
+        android:id="@+id/tv_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/imageUser"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        card_view:layout_constraintStart_toStartOf="@+id/tvName"
+        card_view:layout_constraintTop_toBottomOf="@+id/tvName"
+        tools:text="@string/app_name" />
+
+    <TextView
+        android:id="@+id/tv_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_loc"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        card_view:layout_constraintStart_toStartOf="@+id/tv_company"
+        card_view:layout_constraintTop_toBottomOf="@+id/tv_company"
+        tools:text="@string/app_name" />
+
+    <TextView
+        android:id="@+id/tv_company"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:drawableStart="@drawable/ic_work"
+        android:textColor="@color/black"
+        android:maxWidth="300sp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        card_view:layout_constraintStart_toEndOf="@+id/imageUser"
+        card_view:layout_constraintTop_toBottomOf="@+id/tv_username"
+        tools:text="@string/favorites" />
+
+    <TextView
+        android:id="@+id/repository"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:drawableStart="@drawable/ic_repo"
+        android:textColor="@color/black"
+        android:maxWidth="300sp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        card_view:layout_constraintStart_toStartOf="@+id/tv_location"
+        card_view:layout_constraintTop_toBottomOf="@+id/tv_location"
+        tools:text="@string/follower" />
+
+    <TextView
+        android:id="@+id/tv_following"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:drawableStart="@drawable/ic_following"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        card_view:layout_constraintStart_toEndOf="@+id/repository"
+        card_view:layout_constraintTop_toBottomOf="@+id/tv_location"
+        tools:text="@string/follower" />
+
+    <TextView
+        android:id="@+id/tv_follower"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:drawableStart="@drawable/ic_follower"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        card_view:layout_constraintStart_toEndOf="@+id/tv_following"
+        card_view:layout_constraintTop_toBottomOf="@+id/tv_location"
+        tools:text="@string/following" />
+
+    <ImageView
+        android:id="@+id/iv_favorites"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/favorites"
+        android:src="@drawable/ic_favorite"
+        android:tag="Not Saved"
+        card_view:layout_constraintEnd_toEndOf="parent"
+        card_view:layout_constraintStart_toEndOf="@+id/tvName"
+        card_view:layout_constraintTop_toTopOf="@+id/tvName" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
