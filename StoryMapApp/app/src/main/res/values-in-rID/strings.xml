@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Story App</string>
+    <string name="add">Tambahkan Cerita</string>
+    <string name="settings">Pengaturan</string>
+    <string name="add_label">Cerita Baru</string>
+    <string name="dark_mode">Mode Gelap</string>
+    <string name="change_language">Ganti Bahasa</string>
+    <string name="content_description_media">Gambar</string>
+    <string name="logout">Keluar</string>
+    <string name="have_acc">Sudah Mempunyai Akun?</string>
+    <string name="password">Kata Sandi</string>
+    <string name="login">Masuk</string>
+    <string name="or">Atau</string>
+    <string name="new_user_register_now">Daftar Sekarang!</string>
+    <string name="desc_register">Daftar Sekarang!</string>
+    <string name="reg_nama">Nama Lengkap</string>
+    <string name="camera">Kamera</string>
+    <string name="upload">Unggah</string>
+    <string name="gallery">Galeri</string>
+    <string name="description">Deskripsi</string>
+    <string name="back">Kembali</string>
+    <string name="permission">Pemintaan Akses Ditolak!</string>
+    <string name="choose_picture">Pilih Gambar</string>
+    <string name="camera_info">Gagal mengambil Gambar</string>
+    <string name="fail_info_cam">Gagal membuka Kamera</string>
+    <string name="password_too_short">Password minimal 6 Karakter!</string>
+    <string name="invalid_email_address">Formal Email salah!</string>
+    <string name="name_error_too_long">Nama maksimal 20 Karakter!</string>
+    <string name="text_empty">Form harus diisi!</string>
+    <string name="welcome">Selamat Datang!</string>
+    <string name="login_success">Login Berhasil!</string>
+    <string name="next">Selanjutnya</string>
+    <string name="register_success">Pendaftaran Berhasil!</string>
+    <string name="info_register">User telah teregistrasi!</string>
+    <string name="greeting">Selamat Datang, %1$s!</string>
+    <string name="upload_success">Berhasil diunggah!</string>
+    <string name="picture_empty">Gambar tidak ditemukan!</string>
+    <string name="map">Peta</string>
+    <string name="retry">Ulangi</string>
+    <string name="location_not_found">Lokasi tidak ditemukan.Coba Lagi</string>
+    <string name="style_error">Tidak dapat menemukan,Error :</string>
+    <string name="resource_not_found">Sumber daya tidak ditemukan!</string>
+    <string name="create">Buat Akun</string>
+    <string name="desc_msg_null">Deskripsi harus diisi!</string>
+</resources>

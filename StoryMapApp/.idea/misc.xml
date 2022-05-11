@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/apk_kotlin/StoryMapApp/app/src/main/res/drawable/wave.xml" value="0.207" />
+        <entry key="..\:/apk_kotlin/StoryMapApp/app/src/main/res/font/.xml" value="0.2564814814814815" />
+        <entry key="..\:/apk_kotlin/StoryMapApp/app/src/main/res/layout/activity_add.xml" value="0.20052083333333334" />
+        <entry key="..\:/apk_kotlin/StoryMapApp/app/src/main/res/layout/activity_camera.xml" value="0.20052083333333334" />
+        <entry key="..\:/apk_kotlin/StoryMapApp/app/src/main/res/layout/activity_detail.xml" value="0.20052083333333334" />
+        <entry key="..\:/apk_kotlin/StoryMapApp/app/src/main/res/layout/activity_login.xml" value="0.20052083333333334" />
+        <entry key="..\:/apk_kotlin/StoryMapApp/app/src/main/res/layout/activity_main.xml" value="0.20052083333333334" />
+        <entry key="..\:/apk_kotlin/StoryMapApp/app/src/main/res/layout/activity_maps.xml" value="0.20052083333333334" />
+        <entry key="..\:/apk_kotlin/StoryMapApp/app/src/main/res/layout/activity_register.xml" value="0.176" />
+        <entry key="..\:/apk_kotlin/StoryMapApp/app/src/main/res/layout/activity_settings.xml" value="0.25" />
+        <entry key="..\:/apk_kotlin/StoryMapApp/app/src/main/res/layout/activity_splashscreen.xml" value="0.25" />
+        <entry key="..\:/apk_kotlin/StoryMapApp/app/src/main/res/layout/item_loading.xml" value="0.25" />
+        <entry key="..\:/apk_kotlin/StoryMapApp/app/src/main/res/layout/list_item.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
