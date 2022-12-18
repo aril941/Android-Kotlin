@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">JetpackApp</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_favorite">Favorite</string>
+    <string name="back">Kembali</string>
+</resources>
